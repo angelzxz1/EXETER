@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div onclick="RueMsg()" style="cursor: pointer;">enviar</div>
+
+<script >  
+         MyObject = new ActiveXObject( "Outlook.Application" ) ;
+         function RueMsg()   
+         {  
+            MyObject.Run("file:///Mails/TEST.msg") ;  
+        }  
+
+    </script> 
+</body>
+</html>
